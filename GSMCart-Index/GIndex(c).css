@@ -17,47 +17,39 @@ body {
 div{
   display:inline-block;
 }
+/*배경*/
 .Background1 {
   width:768px;
   height: 66px;
   background-color: #ffffff;
 }
-.Project-Logo {
-  width: calc(768px - 214.4px);
-  height: 36.6px;
-  padding-top:14.4px;
-  object-fit: none;
-}
-.Menu-Icon {
-  padding-right:10px;
-  width: 36.6px;
-  height: 36.6px;
-  position:relative;
-}
-.Search-Icon {
-  width: 36.6px;
-  height: 36.6px;
-  position:relative;
-}
-.Cart-Icon {
-  width: 36.6px;
-  height: 36.6px;
-  position:relative;
-}
-.Person-Icon {
-  padding-left:8px;
-  width: 36.6px;
-  height: 36.6px;
-  position:relative;
-}
 .Background2 {
-  width:768px;
+  width:calc(100%);
   height: 500px;
   background-color: #ffca3a;
-  text-align: center;
 }
+.Background3 {
+  width: 768px;
+  height: 600px;
+  background-color: #ffffff;
+  text-align: center;
+  position: relative;
+}
+.Background4 {
+  width:calc(100%);
+  height: 500px;
+  background-color: #efefef;
+}
+.Background5 {
+  width: calc(100%);
+  height: 133px;
+  background-color: #333333;
+  position: relative;
+}
+/*글꼴설정*/
 .text1 {
-  width: 530px;
+  width:calc(100%);
+  max-width: 1080px;
   height: 87px;
   font-family: BMDoHyeon;
   font-size: 72px;
@@ -69,28 +61,6 @@ div{
   text-align: center;
   margin:62px auto 42px;
   color: #ffffff;
-}
-.Calendar {
-  width: 184px;
-  height: 171.9px;
-  object-fit: contain;
-  position:relative;
-  right:40px;
-}
-.Calendar1 {
-  width: 117px;
-  height: 117px;
-  object-fit: contain;
-  position:absolute;
-  top:66px;
-  left:224px;
-}
-.Shopping-Basket {
-  width: 196.5px;
-  height: 171px;
-  object-fit: contain;
-  position:relative;
-  left:60px;
 }
 .text2 {
   width: 203px;
@@ -105,13 +75,6 @@ div{
   text-align: center;
   color: #ffffff;
   position:relative;
-}
-.Background3 {
-  width: 768px;
-  height: 600px;
-  background-color: #ffffff;
-  text-align: center;
-  position: relative;
 }
 .text3 {
   width: 188px;
@@ -141,39 +104,6 @@ div{
   color: #333333;
   position:absolute;
 }
-.Card {
-  width: 117px;
-  height: 117px;
-  object-fit: contain;
-  position:absolute;
-  left:224px;
-  top:237px;
-}
-.Box {
-  width: 117px;
-  height: 117px;
-  object-fit: contain;
-  position:absolute;
-  left:224px;
-  top:408px;
-}
-.Arrow_Down {
-  width: 47px;
-  height: 47px;
-  object-fit: contain;
-  position:absolute;
-}
-.Background4 {
-  width:768px;
-  height: 500px;
-  background-color: #efefef;
-}
-.Truck {
-  width: 268px;
-  height: 215px;
-  object-fit: contain;
-  margin-top:35px;
-}
 .text5 {
   width: 633px;
   height: 37px;
@@ -188,7 +118,7 @@ div{
   color: #333333;
 }
 .text6 {
-  width: 485px;
+  width: 600px;
   height: 74px;
   font-family: SourceHanSansKR;
   font-size: 22px;
@@ -200,13 +130,7 @@ div{
   text-align: center;
   color: #333333;
   margin:21px calc(10%) 29px;
-}
-.button {
-  width: 253px;
-  height: 49px;
-  object-fit: contain;
-  border-radius: 10px;
-  background-color: #ffca3a;
+  position: inherit;
 }
 .text7 {
   width: 88px;
@@ -225,17 +149,6 @@ div{
   left:50%;
   transform: translate(-50%, -50%);
 }
-.Background5 {
-  width: 768px;
-  height: 133px;
-  background-color: #333333;
-  position: relative;
-}
-.Project-Logo_white {
-  width: 435px;
-  height: 133px;
-  object-fit: contain;
-}
 .TSARR {
   width: 333px;
   height: 97px;
@@ -249,6 +162,99 @@ div{
   text-align: left;
   color: #ffffff;
   position: absolute;
-  left:435px;
-  top:32px;
+  top:33px; left:55%;
+}
+/*이미지*/
+.Arrow_Down {
+  width: 47px;
+  height: 47px;
+  object-fit: contain;
+  position:absolute;
+}
+.Box {
+  width: 117px;
+  height: 117px;
+  object-fit: contain;
+  position:absolute;
+  left:224px;
+  top:408px;
+}
+.button {
+  width: 253px;
+  height: 49px;
+  object-fit: contain;
+  border-radius: 10px;
+  background-color: #ffca3a;
+  position: relative;
+}
+.Calendar {
+  width: 184px;
+  height: 171.9px;
+  object-fit: contain;
+  position:relative;
+  right:40px;
+}
+.Calendar1 {
+  width: 117px;
+  height: 117px;
+  object-fit: contain;
+  position:absolute;
+  top:66px;
+  left:224px;
+}
+.Card {
+  width: 117px;
+  height: 117px;
+  object-fit: contain;
+  position:absolute;
+  left:224px;
+  top:237px;
+}
+.Cart-Icon {
+  width: 36.6px;
+  height: 36.6px;
+  position:relative;
+}
+.Menu-Icon {
+  padding-right:10px;
+  width: 36.6px;
+  height: 36.6px;
+  position:relative;
+}
+.Person-Icon {
+  padding-left:8px;
+  width: 36.6px;
+  height: 36.6px;
+  position:relative;
+}
+.Project-Logo {
+  width: calc(768px - 214.4px);
+  height: 36.6px;
+  padding-top:14.4px;
+  object-fit: none;
+}
+.Project-Logo_white {
+  width: 435px;
+  height: 133px;
+  object-fit: contain;
+  position: relative;
+  right:calc(22% - 50px);
+}
+.Search-Icon {
+  width: 36.6px;
+  height: 36.6px;
+  position:relative;
+}
+.Shopping-Basket {
+  width: 196.5px;
+  height: 171px;
+  object-fit: contain;
+  position:relative;
+  left:60px;
+}
+.Truck {
+  width: 500px;
+  height: 215px;
+  object-fit: contain;
+  margin-top:35px;
 }
