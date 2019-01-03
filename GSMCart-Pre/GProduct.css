@@ -22,14 +22,82 @@
   /*배경*/
   .Background1 {
     width:100%;
+    min-width:550px;
     height: 66px;
     background-color: #ffffff;
   }
+  .Background2{
+    width:100%;
+    min-width:550px;
+    height:824px;
+    background-color:#ffffff;
+    position:relative;
+  }
   .Background3 {
     width: calc(100%);
+    min-width:550px;
     height: 133px;
     background-color: #333333;
     position: relative;
+  }
+  .text1 {
+    width: 528px;
+    height: 78px;
+    font-family: SourceHanSansKR;
+    font-size: 28px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    margin:9px calc(calc(100% - 528px)/2) 31px;
+  }
+  .text2 {
+    width: 163px;
+    height: 49px;
+    font-family: SourceHanSansKR;
+    font-size: 32px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    margin:0px calc(calc(100% - 163px)/2) 0;
+  }
+  .text3 {
+  width: 64.1px;
+  height: 25.6px;
+  font-family: SourceHanSansKR;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.46;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+  position: absolute;
+  left:calc(calc(100% - 64.1px)/2);
+  bottom:197px;
+  }
+  .text4 {
+    width: 162px;
+    height: 40px;
+    font-family: SourceHanSansKR;
+    font-size: 28px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    bottom:90px; left:calc(calc(100% - 162px)/2);
   }
   .TSARR {
     width: 333px;
@@ -45,6 +113,31 @@
     color: #ffffff;
     position: absolute;
     top:33px; left:55%;
+  }
+  .button  {
+  width: 282.5px;
+  height: 71px;
+  object-fit: contain;
+  border-radius: 10px;
+  background-color: #ffca3a;
+  position: relative;
+  top:110px;
+  }
+  .baseline-arrow_drop_up-24px {
+  width: 59.8px;
+  height: 59.8px;
+  object-fit: contain;
+  position: absolute;
+  left:calc(calc(100% - 59.8px)/2);
+  bottom:200px;
+  }
+  .baseline-arrow_drop_down-24px {
+  width: 29.9px;
+  height: 20.5px;
+  object-fit: contain;
+  position: absolute;
+  left:calc(calc(100% - 29.9px)/2 - 3px);
+  bottom:175px;
   }
   .Cart-Icon {
     width: 36.6px;
@@ -80,6 +173,12 @@
     width: 36.6px;
     height: 36.6px;
     position:relative;
+  }
+  .Product {
+    width: 397px;
+    height: 397px;
+    object-fit: contain;
+    border-radius: 10px;
   }
  }
 @media all and (min-width: 769px) {
