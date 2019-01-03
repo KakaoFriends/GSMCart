@@ -28,8 +28,8 @@
         img-pc/person icon@3x.png 3x" class="Person-Icon">
       </div>
     </div>
-    <div id="D4" style="display:none;">
-      <div class="container4">
+    <div id="D3" style="display:none;">
+      <div class="container3">
         <img src="img-pc/project logo_white.png"
              srcset="img-pc/project logo_white@2x.png 2x,
                      img-pc/project logo_white@3x.png 3x"
@@ -52,7 +52,7 @@
       <img src="img/person icon.png" srcset="img/person icon@2x.png 2x,
       img/person icon@3x.png 3x" class="Person-Icon">
     </div>
-    <div id="M4" style="display:none">
+    <div id="M3" style="display:none">
       <img src="img/project logo_white.png" srcset="img/project logo_white@2x.png 2x,
                    img/project logo_white@3x.png 3x" class="Project-Logo_white">
       <div class="TSARR">
@@ -61,34 +61,34 @@
     </div>
     <script type="text/javascript">
     var D1 = $("#D1").html();
-    var D4 = $("#D4").html();
+    var D3 = $("#D3").html();
     var M1 = $("#M1").html();
-    var M4 = $("#M4").html();
+    var M3 = $("#M3").html();
       $(document).ready( function() {
         if($(window).width()<769){
           $("#B1").html(M1)
-          $("#B4").html(M4)
+          $("#B3").html(M3)
         }
         else if($(window).width()>=769 && $(window).width()<1081){
           $("#B1").html(D1)
-          $("#B4").html(M4)
+          $("#B3").html(M3)
         }
         else{
           $("#B1").html(D1)
-          $("#B4").html(D4)
+          $("#B3").html(D3)
         }
         $(window).resize(function(){
           if($(window).width()<769){
             $("#B1").html(M1)
-            $("#B4").html(M4)
+            $("#B3").html(M3)
           }
           else if($(window).width()>=769 && $(window).width()<1081){
             $("#B1").html(D1)
-            $("#B4").html(M4)
+            $("#B3").html(M3)
           }
           else{
             $("#B1").html(D1)
-            $("#B4").html(D4)
+            $("#B3").html(D3)
           }
         })
       })
@@ -100,8 +100,6 @@
     <div id="B2" class="Background2">
     </div>
     <div id="B3" class="Background3">
-    </div>
-    <div id="B4" class="Background4">
     </div>
   </body>
 </html>
