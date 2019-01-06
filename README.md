@@ -1,5 +1,3 @@
 # GSMCart
-Project Using Node.js, Express, MySQL
-
-## Version
-Node.js - 10.15.0 LTS
+2018 GSM 프로젝트 페스티벌
+Apache, PHP, MySQL 
