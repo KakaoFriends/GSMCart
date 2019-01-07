@@ -29,7 +29,7 @@
   .Background2{
     width:100%;
     min-width:550px;
-    height:824px;
+    height:1160px;
     background-color:#ffffff;
     position:relative;
   }
@@ -82,7 +82,7 @@
   color: #333333;
   position: absolute;
   left:calc(calc(100% - 64.1px)/2);
-  bottom:197px;
+  bottom:532px;
   }
   .text4 {
     width: 162px;
@@ -97,7 +97,7 @@
     text-align: center;
     color: #ffffff;
     position: absolute;
-    bottom:90px; left:calc(calc(100% - 162px)/2);
+    bottom:425px; left:calc(calc(100% - 162px)/2);
   }
   .TSARR {
     width: 333px;
@@ -129,7 +129,7 @@
   object-fit: contain;
   position: absolute;
   left:calc(calc(100% - 59.8px)/2);
-  bottom:200px;
+  bottom:535px;
   }
   .baseline-arrow_drop_down-24px {
   width: 29.9px;
@@ -137,7 +137,7 @@
   object-fit: contain;
   position: absolute;
   left:calc(calc(100% - 29.9px)/2 - 3px);
-  bottom:175px;
+  bottom:510px;
   }
   .Cart-Icon {
     width: 36.6px;

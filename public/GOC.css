@@ -30,10 +30,10 @@
     width:100%;
     min-width:589.8px;
     height:auto;
-    min-height:880px;
+    min-height:1050px;
     background-color: #ffffff;
     position: relative;
-    padding-bottom:278px;
+    padding-bottom:100px;
   }
   .Background3 {
     width: calc(100%);
@@ -43,23 +43,21 @@
     position: relative;
   }
   .text1 {
-    width: 330px;
-    height: 70px;
+    width: 509px;
+    height: 101.8px;
     font-family: SourceHanSansKR;
-    font-size: 32px;
-    font-weight: normal;
+    font-size: 36px;
+    font-weight: bold;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.44;
     letter-spacing: normal;
     text-align: center;
-    color: #333333;
-    position: relative;
-    top:96px;
+    color: #000000;
   }
   .text2 {
-    width: 174px;
-    height: 35px;
+    width: 162px;
+    height: 51px;
     font-family: SourceHanSansKR;
     font-size: 15px;
     font-weight: normal;
@@ -70,9 +68,10 @@
     text-align: center;
     color: #333333;
     position: relative;
+    top:7px;
   }
   .text2.a{
-    left:80px;
+    left:120px;
   }
   .text2.b{
     left:120px;
@@ -81,23 +80,23 @@
     left:40px;
   }
   .text3 {
-    width: 228.7px;
-    height: auto;
+    width: 220.2px;
+    height: 36.1px;
     font-family: SourceHanSansKR;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
-    line-height: 1.29;
+    line-height: 1.87;
     letter-spacing: normal;
     text-align: left;
     color: #333333;
     position: relative;
-    top:37.5px; right:35px;
+    top:12.3px; right:70px;
   }
   .text4 {
-    width: 100px;
-    height: 20px;
+    width: 105.2px;
+    height: 12.9px;
     font-family: SourceHanSansKR;
     font-size: 18px;
     font-weight: 300;
@@ -105,20 +104,20 @@
     font-stretch: normal;
     line-height: 1.44;
     letter-spacing: normal;
-    text-align: center;
+    text-align: left;
     color: #333333;
-    top:41.5px;
+    top:calc(calc(100% - 12.9px)/2 - 5px);
     position: absolute;
   }
   .text4.a{
-    left:364px;
+    left:410px;
   }
   .text4.b{
-    left:470px;
+    left:485px;
   }
   .text5 {
-    width: 177px;
-    height: 63px;
+    width: 114.2px;
+    height: 40.7px;
     font-family: SourceHanSansKR;
     font-size: 18px;
     font-weight: normal;
@@ -126,31 +125,16 @@
     font-stretch: normal;
     line-height: 1.44;
     letter-spacing: normal;
-    text-align: center;
+    text-align: left;
     color: #333333;
     position: relative;
-    left:214px; top:150px;
+    left:230px; top:11.3px;
   }
   .text5.a {
     font-weight: 300;
     color: #ffca3a;
     position: relative;
     left:0px; top:0px;
-  }
-  .text6 {
-    width: 116px;
-    height: 29px;
-    font-family: SourceHanSansKR;
-    font-size: 20px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.45;
-    letter-spacing: normal;
-    text-align: center;
-    color: #ffffff;
-    position: relative;
-    top:200px; right:110px;
   }
   .TSARR {
     width: 333px;
@@ -166,25 +150,6 @@
     color: #ffffff;
     position: absolute;
     top:33px; left:55%;
-  }
-  .button  {
-    width: 212.7px;
-    height: 53.4px;
-    object-fit: contain;
-    border-radius: 5px;
-    background-color: #ffca3a;
-    position: relative;
-    top:220px; left:60px;
-  }
-  .checkbox {
-    width: 24px;
-    height: 24px;
-    object-fit: contain;
-    position: absolute;
-    left:8.5px; bottom:calc(calc(100% - 24px)/2);
-  }
-  .checkbox.all{
-    bottom:8.5px;
   }
   .Cart-Icon {
     width: 36.6px;
@@ -210,12 +175,12 @@
     object-fit: none;
   }
   .Product {
-    width: 84px;
-    height: 84px;
+    width: 54.2px;
+    height: auto;
     object-fit: contain;
     border-radius: 10px;
     position: absolute;
-    left:50px; top:calc(calc(100% - 84px)/2);
+    left:20px; top:calc(calc(100% - 54.2px)/2);
   }
   .Project-Logo_white {
     width: 435px;
@@ -229,11 +194,16 @@
     height: 36.6px;
     position:relative;
   }
+  .Truck {
+    width: 164px;
+    height: 131.6px;
+    object-fit: contain;
+    margin:129px 0 20.4px;
+  }
   .container2{
     width:589.8px;
     height:auto;
     position:relative;
-    top:130px;
   }
   .container2-1{
     width:589.8px;
@@ -243,10 +213,11 @@
   }
   .container2-2{
     width:589.8px;
-    min-height:114px;
+    min-height:73.6px;
     height:auto;
     position:relative;
     border-bottom:solid 1px #333333;
+    vertical-align: middle;
   }
  }
 @media all and (min-width: 769px) {
@@ -284,7 +255,7 @@
     min-height:400px;
     background-color: #ffffff;
     position: relative;
-    padding-bottom:313px;
+    padding-bottom:85.9px;
   }
   .Background3 {
     width: calc(100%);
@@ -310,19 +281,17 @@
     top:32px; left:350px;
   }
   .text1 {
-    width: 330px;
-    height: 70px;
+    width: 509px;
+    height: 101.3px;
     font-family: SourceHanSansKR;
-    font-size: 40px;
-    font-weight: normal;
+    font-size: 36px;
+    font-weight: bold;
     font-style: normal;
     font-stretch: normal;
-    line-height: 1.45;
+    line-height: 1.44;
     letter-spacing: normal;
     text-align: center;
-    color: #333333;
-    position: relative;
-    top:75px;
+    color: #000000;
   }
   .text2 {
     width: 150px;
@@ -396,27 +365,12 @@
     text-align: center;
     color: #333333;
     position: relative;
-    top:170px; left:442px;
+    top:7.5px; left:442px;
   }
   .text5.a {
     font-weight: 300;
     color: #ffca3a;
     top:0px; left:0px;
-  }
-  .text6 {
-    width: 140px;
-    height: 35px;
-    font-family: SourceHanSansKR;
-    font-size: 22px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.46;
-    letter-spacing: normal;
-    text-align: center;
-    color: #ffffff;
-    position: absolute;
-    left:calc(calc(100% - 140px)/2); bottom:104.4px;
   }
   .TSARR {
     width: 470px;
@@ -432,27 +386,6 @@
     color: #ffffff;
     position: absolute;
     top:37px; right:calc(0%);
-  }
-  .button  {
-    width: 212.7px;
-    height: 53.4px;
-    object-fit: contain;
-    border-radius: 5px;
-    background-color: #ffca3a;
-    position: absolute;
-    bottom:95.6px;
-    left:calc(calc(100% - 212.7px)/2);
-  }
-  .checkbox {
-    width: 29.9px;
-    height: 29.9px;
-    object-fit: contain;
-    position: absolute;
-    left:30px;
-    top:calc(calc(100% - 29.9px)/2);
-  }
-  .checkbox.all{
-    top:0px;
   }
   .Cart-Icon {
     width: 57.1px;
@@ -498,6 +431,12 @@
     position: absolute;
     left:140px; top:calc(calc(100% - 104.6px)/2);
   }
+  .Truck {
+    width: 164px;
+    height: 131.6px;
+    object-fit: contain;
+    margin:129px 0 20.4px;
+  }
   .container1{
     width:calc(100%);
     max-width:1250px;
@@ -510,7 +449,6 @@
     width:1108.6px;
     height:auto;
     position:relative;
-    top:150px;
   }
   .container2-1{
     width:1108.6px;
