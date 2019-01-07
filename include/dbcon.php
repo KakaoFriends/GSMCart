@@ -1,9 +1,9 @@
 <?php
 session_start();
 
-$servername = "localhost";
-$username = "alfk";
-$password = "sky0870!";
+$servername = "13.209.36.194";
+$username = "root";
+$password = "gsmcart";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password);

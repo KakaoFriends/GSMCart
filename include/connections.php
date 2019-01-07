@@ -1,8 +1,8 @@
 <?php
 
-   $server="localhost";
-   $user="alfk";
-   $pass="sky0870!";
+   $server="13.209.36.194";
+   $user="root";
+   $pass="gsmcart";
    $db="alfk";
 
    // connect to mysql
